@@ -25,7 +25,9 @@
 │   └── LGB.py (模型套件)
 │   └── main.py (主檔案，透過 LGB.py 訓練 preprocessing.py 輸出的訓練資料，預測測試資料)
 │   └── preprocessing.py (資料前處理，執行後，會輸出訓練與測試資料)
-└── └── utils.py (preprocessing.py 使用函式)
+│   └──utils.py (preprocessing.py 使用函式)
+└── requirements.txt (使用套件)
+
 ```
 
 ## 作法簡介
