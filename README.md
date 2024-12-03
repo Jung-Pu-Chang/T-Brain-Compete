@@ -28,8 +28,13 @@
 └── └── utils.py (preprocessing.py 使用函式)
 ```
 
-### 作法簡介
-> 
+## 作法簡介
+> 預測目標 : Power(mW)  
+> 演算法 : LightGBM + Dart + regression_l1    
+> 競賽特徵使用 : 僅使用時間
+> 外部特徵使用 : AQX、CWB、pvlib、meteostat  
+
+
 ## 參考資料
 > [A Review of Solar Forecasting Techniques and the Role of Artificial Intelligence](https://www.mdpi.com/2673-9941/4/1/5)   
 > [AIdea: Solar PV Forecast - Surplux](https://github.com/siang-chang/aidea-solar-energy-surplux?tab=readme-ov-file)  
