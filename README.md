@@ -1,34 +1,25 @@
 # [2024_發電量預測競賽](https://tbrain.trendmicro.com.tw/Competitions/Details/36)
-> TEAM_5781，排名 32/500 (6.4%)
-> 
-> 最後新增熱門推薦，來解決新產品無資料的狀況(cold-start)
+> TEAM_5781，名次 32/500 (6.4%)
 
 ## Environment
 `python3.8.13`
 
-
 ## Installation
-
 `pip install -r requirements.txt`
-
 
 ## Directory
 
 ```bash
 .
 ├── README.md
-├── config
-│   └── config.ini (路徑 & 模型參數)
-├── data
-│   └── online_retail_II.csv (raw_data，為防止侵權，請另外至下方網址下載)
-├── models
-│   └── edge_model  
+├── external_data
+│   └── AQX (空氣品質資料)
+│   └── CWB (氣象歷史資料)
 ├── src
-│   └── training.py
-├── service
-│   ├── module.py 
-│   ├── module_api.py
-└── └── api_test.py 
+│   └── LGB.py (模型套件)
+│   └── main.py (主檔案)
+│   └── preprocessing.py (資料前處理，執行完畢後，會輸出訓練與測試資料，提供給 main.py)
+└── └── utils.py (preprocessing.py 使用函式)
 ```
 
 ### 簡介
