@@ -31,7 +31,7 @@
 ## 作法簡介
 > 預測目標 : Power(mW)  
 > 演算法 : LightGBM + Dart + regression_l1    
-> 競賽特徵使用 : 僅使用時間
+> 競賽特徵使用 : 僅使用時間   
 > 外部特徵使用 : AQX、CWB、pvlib、meteostat  
 
 
