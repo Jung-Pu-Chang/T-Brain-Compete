@@ -1,7 +1,7 @@
 # TBrain_歷年競賽成績
 > 以 branch 照年份紀錄
   
-| 年份 |   競賽名稱  | 隊伍名稱 | 隊伍人數 | Public 排名  | Private 排名 | Private 排名佔比 |  
+| 年份 |   競賽名稱  | 隊伍名稱 | 隊伍人數 | Public 排名  | Private 排名 | Private 排名佔比(前%) |  
 | :--  | :-------: | :----: | :----: | :----: | :----: | :----: |
 | 2024 | [發電量預測](https://tbrain.trendmicro.com.tw/Competitions/Details/36) | TEAM_5781 | 1 | 30/500 | 32/500 | 6.4 % |  
 | 2023 | [信用卡冒用偵測](https://tbrain.trendmicro.com.tw/Competitions/Details/31) | TEAM_4570 | 1 | 97/169 | 70/85 | 82.3 % |  
